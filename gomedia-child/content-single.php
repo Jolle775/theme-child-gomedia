@@ -51,11 +51,13 @@
 		<?php the_content(); ?>
 		<br/>
 		
-	<span style="font-size: 1.8em;">Jetzt weiterlesen..</span><br/>
-	<?php if ( get_previous_post_link() ) : ?> <span>Vorheriger Beitrag: <?php previous_post_link('%link', '%title', true); ?></span><br/><br/><?php endif; ?>
-	<?php if ( get_next_post_link() ) : ?> <span>Nächster Beitrag: <?php next_post_link('%link', '%title', true); ?></span><?php endif; ?>
-	<br/>
-	<br/>
+	<span style="font-size: 1.8em;">Zum weiterlesen:</span><br/>
+		<div class="navigation">	
+			<?php previous_post_link('%link', '%title', true); ?>
+			<br/>	<br/>
+			<?php next_post_link('%link', '%title', true); ?>
+			<br/>	<br/>
+		</div>
 	</div><!-- .entry-content -->
 	
 	 
