@@ -12,9 +12,9 @@ $category_link = get_category_link( $kategorie ); ?>
 		<div class="container">
 			<div class="row">
 
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			Menü aufklappen
-  </button>
+</a>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	<?php if ( is_single()) : ?>	
 		<ul id="secondary-menu" class="sf-menu col-md-9 l_tinynav1 sf-js-enabled sf-arrows">

@@ -222,6 +222,17 @@ img.wpsp-logo {
 
 #secondary-nav .navbar-toggler {
     display: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-size: 1em;
+    line-height: inherit;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background: #ededf0;
+    color: #666666;
+    padding-top: 0.8em;
 }
 
 @media (max-width: 988px) {
@@ -243,6 +254,7 @@ img.wpsp-logo {
     #menu-second_menu {
         display: inline;
         background: White;
+        padding: 1em;
     }
     #navbarSupportedContent {
         background: white;
