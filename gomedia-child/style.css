@@ -222,20 +222,12 @@ img.wpsp-logo {
 
 #secondary-nav .navbar-toggler {
     display: none;
-    font-size: inherit;
-    font-family: inherit;
-    font-size: 1em;
-    line-height: inherit;
-    cursor: pointer;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    background: #ededf0;
-    color: #666666;
-    padding-top: 0.8em;
 }
 
 @media (max-width: 988px) {
+	
+
+	
     #menu-second_menu li {
         float: none;
     }
@@ -250,14 +242,15 @@ img.wpsp-logo {
         display: block;
         width: 100%;
         height: 45px;
+		background-color: #fff;
     }
     #menu-second_menu {
         display: inline;
         background: White;
-        padding: 1em;
     }
     #navbarSupportedContent {
         background: white;
+		color: #000;
     }
     #menu-second_menu li a {
         padding: 0 20px;
@@ -273,3 +266,13 @@ img.wpsp-logo {
         line-height: 50px;
     }
 }
+@media (max-width: 988px) {
+	
+	.plain-item img {
+	width:100%;
+	height: 100%;	
+    float: none;
+    margin: 0 15px 0 0;
+
+}
+} 
